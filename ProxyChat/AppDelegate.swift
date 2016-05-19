@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  ProxyChat
 //
-//  Created by Wilson Ding on 10/10/15.
-//  Copyright © 2015 Wilson Ding. All rights reserved.
+//  Created by Kevin Nguyen on 5/19/16.
+//  Copyright © 2016 Kevin Nguyen. All rights reserved.
 //
 
 import UIKit

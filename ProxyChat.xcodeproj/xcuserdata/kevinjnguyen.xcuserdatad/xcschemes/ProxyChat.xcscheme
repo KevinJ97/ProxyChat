@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C87BB72C1BC927210034AB58"
+               BlueprintIdentifier = "EABF4CF21CEE24E3009A8F1E"
                BuildableName = "ProxyChat.app"
                BlueprintName = "ProxyChat"
                ReferencedContainer = "container:ProxyChat.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C87BB7401BC927210034AB58"
+               BlueprintIdentifier = "EABF4D061CEE24E3009A8F1E"
                BuildableName = "ProxyChatTests.xctest"
                BlueprintName = "ProxyChatTests"
                ReferencedContainer = "container:ProxyChat.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C87BB74B1BC927210034AB58"
+               BlueprintIdentifier = "EABF4D111CEE24E3009A8F1E"
                BuildableName = "ProxyChatUITests.xctest"
                BlueprintName = "ProxyChatUITests"
                ReferencedContainer = "container:ProxyChat.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C87BB72C1BC927210034AB58"
+            BlueprintIdentifier = "EABF4CF21CEE24E3009A8F1E"
             BuildableName = "ProxyChat.app"
             BlueprintName = "ProxyChat"
             ReferencedContainer = "container:ProxyChat.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C87BB72C1BC927210034AB58"
+            BlueprintIdentifier = "EABF4CF21CEE24E3009A8F1E"
             BuildableName = "ProxyChat.app"
             BlueprintName = "ProxyChat"
             ReferencedContainer = "container:ProxyChat.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C87BB72C1BC927210034AB58"
+            BlueprintIdentifier = "EABF4CF21CEE24E3009A8F1E"
             BuildableName = "ProxyChat.app"
             BlueprintName = "ProxyChat"
             ReferencedContainer = "container:ProxyChat.xcodeproj">

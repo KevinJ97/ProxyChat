@@ -7,139 +7,160 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C87BB7311BC927210034AB58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87BB7301BC927210034AB58 /* AppDelegate.swift */; };
-		C87BB7361BC927210034AB58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87BB7341BC927210034AB58 /* Main.storyboard */; };
-		C87BB7381BC927210034AB58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87BB7371BC927210034AB58 /* Assets.xcassets */; };
-		C87BB73B1BC927210034AB58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87BB7391BC927210034AB58 /* LaunchScreen.storyboard */; };
-		C87BB7461BC927210034AB58 /* ProxyChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87BB7451BC927210034AB58 /* ProxyChatTests.swift */; };
-		C87BB7511BC927210034AB58 /* ProxyChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87BB7501BC927210034AB58 /* ProxyChatUITests.swift */; };
-		C87BB75F1BC927AF0034AB58 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87BB75E1BC927AF0034AB58 /* MultipeerConnectivity.framework */; };
-		C87BB7651BC9299F0034AB58 /* MainMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87BB7641BC9299F0034AB58 /* MainMessageViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		C87BB76F1BC943EB0034AB58 /* ALKeyboardObservingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87BB76A1BC943EB0034AB58 /* ALKeyboardObservingView.swift */; settings = {ASSET_TAGS = (); }; };
-		C87BB7701BC943EB0034AB58 /* ALTextInputBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87BB76B1BC943EB0034AB58 /* ALTextInputBar.swift */; settings = {ASSET_TAGS = (); }; };
-		C87BB7711BC943EB0034AB58 /* ALTextInputBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87BB76C1BC943EB0034AB58 /* ALTextInputBarDelegate.swift */; settings = {ASSET_TAGS = (); }; };
-		C87BB7721BC943EB0034AB58 /* ALTextInputUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87BB76D1BC943EB0034AB58 /* ALTextInputUtilities.swift */; settings = {ASSET_TAGS = (); }; };
-		C87BB7731BC943EB0034AB58 /* ALTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87BB76E1BC943EB0034AB58 /* ALTextView.swift */; settings = {ASSET_TAGS = (); }; };
+		0D679708A5220761BE037919 /* Pods_ProxyChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494CAD0C7A038FB41256E3A4 /* Pods_ProxyChat.framework */; };
+		1CBA50358A6FAAE30FBCBBE5 /* Pods_ProxyChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B4898FAA3FEFD47F78D053 /* Pods_ProxyChatUITests.framework */; };
+		3C196D86B87EF98E5C3342A7 /* Pods_ProxyChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC12D318137B110000986E4 /* Pods_ProxyChatTests.framework */; };
+		EABF4CF71CEE24E3009A8F1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABF4CF61CEE24E3009A8F1E /* AppDelegate.swift */; };
+		EABF4CF91CEE24E3009A8F1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABF4CF81CEE24E3009A8F1E /* ViewController.swift */; };
+		EABF4CFC1CEE24E3009A8F1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EABF4CFA1CEE24E3009A8F1E /* Main.storyboard */; };
+		EABF4CFE1CEE24E3009A8F1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EABF4CFD1CEE24E3009A8F1E /* Assets.xcassets */; };
+		EABF4D011CEE24E3009A8F1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EABF4CFF1CEE24E3009A8F1E /* LaunchScreen.storyboard */; };
+		EABF4D0C1CEE24E3009A8F1E /* ProxyChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABF4D0B1CEE24E3009A8F1E /* ProxyChatTests.swift */; };
+		EABF4D171CEE24E3009A8F1E /* ProxyChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABF4D161CEE24E3009A8F1E /* ProxyChatUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C87BB7421BC927210034AB58 /* PBXContainerItemProxy */ = {
+		EABF4D081CEE24E3009A8F1E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C87BB7251BC927210034AB58 /* Project object */;
+			containerPortal = EABF4CEB1CEE24E3009A8F1E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C87BB72C1BC927210034AB58;
+			remoteGlobalIDString = EABF4CF21CEE24E3009A8F1E;
 			remoteInfo = ProxyChat;
 		};
-		C87BB74D1BC927210034AB58 /* PBXContainerItemProxy */ = {
+		EABF4D131CEE24E3009A8F1E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C87BB7251BC927210034AB58 /* Project object */;
+			containerPortal = EABF4CEB1CEE24E3009A8F1E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C87BB72C1BC927210034AB58;
+			remoteGlobalIDString = EABF4CF21CEE24E3009A8F1E;
 			remoteInfo = ProxyChat;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C87BB72D1BC927210034AB58 /* ProxyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProxyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C87BB7301BC927210034AB58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C87BB7351BC927210034AB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C87BB7371BC927210034AB58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C87BB73A1BC927210034AB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C87BB73C1BC927210034AB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C87BB7411BC927210034AB58 /* ProxyChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProxyChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C87BB7451BC927210034AB58 /* ProxyChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyChatTests.swift; sourceTree = "<group>"; };
-		C87BB7471BC927210034AB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C87BB74C1BC927210034AB58 /* ProxyChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProxyChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C87BB7501BC927210034AB58 /* ProxyChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyChatUITests.swift; sourceTree = "<group>"; };
-		C87BB7521BC927210034AB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C87BB75E1BC927AF0034AB58 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
-		C87BB7641BC9299F0034AB58 /* MainMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMessageViewController.swift; sourceTree = "<group>"; };
-		C87BB76A1BC943EB0034AB58 /* ALKeyboardObservingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALKeyboardObservingView.swift; sourceTree = "<group>"; };
-		C87BB76B1BC943EB0034AB58 /* ALTextInputBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALTextInputBar.swift; sourceTree = "<group>"; };
-		C87BB76C1BC943EB0034AB58 /* ALTextInputBarDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALTextInputBarDelegate.swift; sourceTree = "<group>"; };
-		C87BB76D1BC943EB0034AB58 /* ALTextInputUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALTextInputUtilities.swift; sourceTree = "<group>"; };
-		C87BB76E1BC943EB0034AB58 /* ALTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALTextView.swift; sourceTree = "<group>"; };
+		07955DB8B463B62667618161 /* Pods-ProxyChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProxyChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProxyChatTests/Pods-ProxyChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		3FC12D318137B110000986E4 /* Pods_ProxyChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProxyChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B4898FAA3FEFD47F78D053 /* Pods_ProxyChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProxyChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		494CAD0C7A038FB41256E3A4 /* Pods_ProxyChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProxyChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C91757A9653545D4AD80CA /* Pods-ProxyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProxyChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProxyChat/Pods-ProxyChat.release.xcconfig"; sourceTree = "<group>"; };
+		9B1EF859878451D9DC16D6ED /* Pods-ProxyChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProxyChatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProxyChatUITests/Pods-ProxyChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C0B157FE6F917ADF049EACFB /* Pods-ProxyChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProxyChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProxyChatTests/Pods-ProxyChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8F57D11C1F5206EE1980AB9 /* Pods-ProxyChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProxyChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProxyChatUITests/Pods-ProxyChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EABF4CF31CEE24E3009A8F1E /* ProxyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProxyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABF4CF61CEE24E3009A8F1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EABF4CF81CEE24E3009A8F1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EABF4CFB1CEE24E3009A8F1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EABF4CFD1CEE24E3009A8F1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EABF4D001CEE24E3009A8F1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EABF4D021CEE24E3009A8F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EABF4D071CEE24E3009A8F1E /* ProxyChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProxyChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABF4D0B1CEE24E3009A8F1E /* ProxyChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyChatTests.swift; sourceTree = "<group>"; };
+		EABF4D0D1CEE24E3009A8F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EABF4D121CEE24E3009A8F1E /* ProxyChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProxyChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABF4D161CEE24E3009A8F1E /* ProxyChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyChatUITests.swift; sourceTree = "<group>"; };
+		EABF4D181CEE24E3009A8F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F41FCD78CE77E82FACD47BC0 /* Pods-ProxyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProxyChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProxyChat/Pods-ProxyChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C87BB72A1BC927210034AB58 /* Frameworks */ = {
+		EABF4CF01CEE24E3009A8F1E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C87BB75F1BC927AF0034AB58 /* MultipeerConnectivity.framework in Frameworks */,
+				0D679708A5220761BE037919 /* Pods_ProxyChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C87BB73E1BC927210034AB58 /* Frameworks */ = {
+		EABF4D041CEE24E3009A8F1E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C196D86B87EF98E5C3342A7 /* Pods_ProxyChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C87BB7491BC927210034AB58 /* Frameworks */ = {
+		EABF4D0F1CEE24E3009A8F1E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CBA50358A6FAAE30FBCBBE5 /* Pods_ProxyChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C87BB7241BC927210034AB58 = {
+		819ED50AE0B169F42C121298 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C87BB75E1BC927AF0034AB58 /* MultipeerConnectivity.framework */,
-				C87BB72F1BC927210034AB58 /* ProxyChat */,
-				C87BB7441BC927210034AB58 /* ProxyChatTests */,
-				C87BB74F1BC927210034AB58 /* ProxyChatUITests */,
-				C87BB72E1BC927210034AB58 /* Products */,
+				494CAD0C7A038FB41256E3A4 /* Pods_ProxyChat.framework */,
+				3FC12D318137B110000986E4 /* Pods_ProxyChatTests.framework */,
+				48B4898FAA3FEFD47F78D053 /* Pods_ProxyChatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C97C76279766A25FAC5D263B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F41FCD78CE77E82FACD47BC0 /* Pods-ProxyChat.debug.xcconfig */,
+				69C91757A9653545D4AD80CA /* Pods-ProxyChat.release.xcconfig */,
+				C0B157FE6F917ADF049EACFB /* Pods-ProxyChatTests.debug.xcconfig */,
+				07955DB8B463B62667618161 /* Pods-ProxyChatTests.release.xcconfig */,
+				E8F57D11C1F5206EE1980AB9 /* Pods-ProxyChatUITests.debug.xcconfig */,
+				9B1EF859878451D9DC16D6ED /* Pods-ProxyChatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EABF4CEA1CEE24E3009A8F1E = {
+			isa = PBXGroup;
+			children = (
+				EABF4CF51CEE24E3009A8F1E /* ProxyChat */,
+				EABF4D0A1CEE24E3009A8F1E /* ProxyChatTests */,
+				EABF4D151CEE24E3009A8F1E /* ProxyChatUITests */,
+				EABF4CF41CEE24E3009A8F1E /* Products */,
+				C97C76279766A25FAC5D263B /* Pods */,
+				819ED50AE0B169F42C121298 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		C87BB72E1BC927210034AB58 /* Products */ = {
+		EABF4CF41CEE24E3009A8F1E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C87BB72D1BC927210034AB58 /* ProxyChat.app */,
-				C87BB7411BC927210034AB58 /* ProxyChatTests.xctest */,
-				C87BB74C1BC927210034AB58 /* ProxyChatUITests.xctest */,
+				EABF4CF31CEE24E3009A8F1E /* ProxyChat.app */,
+				EABF4D071CEE24E3009A8F1E /* ProxyChatTests.xctest */,
+				EABF4D121CEE24E3009A8F1E /* ProxyChatUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C87BB72F1BC927210034AB58 /* ProxyChat */ = {
+		EABF4CF51CEE24E3009A8F1E /* ProxyChat */ = {
 			isa = PBXGroup;
 			children = (
-				C87BB7301BC927210034AB58 /* AppDelegate.swift */,
-				C87BB7641BC9299F0034AB58 /* MainMessageViewController.swift */,
-				C87BB76A1BC943EB0034AB58 /* ALKeyboardObservingView.swift */,
-				C87BB76B1BC943EB0034AB58 /* ALTextInputBar.swift */,
-				C87BB76C1BC943EB0034AB58 /* ALTextInputBarDelegate.swift */,
-				C87BB76D1BC943EB0034AB58 /* ALTextInputUtilities.swift */,
-				C87BB76E1BC943EB0034AB58 /* ALTextView.swift */,
-				C87BB7341BC927210034AB58 /* Main.storyboard */,
-				C87BB7371BC927210034AB58 /* Assets.xcassets */,
-				C87BB7391BC927210034AB58 /* LaunchScreen.storyboard */,
-				C87BB73C1BC927210034AB58 /* Info.plist */,
+				EABF4CF61CEE24E3009A8F1E /* AppDelegate.swift */,
+				EABF4CF81CEE24E3009A8F1E /* ViewController.swift */,
+				EABF4CFA1CEE24E3009A8F1E /* Main.storyboard */,
+				EABF4CFD1CEE24E3009A8F1E /* Assets.xcassets */,
+				EABF4CFF1CEE24E3009A8F1E /* LaunchScreen.storyboard */,
+				EABF4D021CEE24E3009A8F1E /* Info.plist */,
 			);
 			path = ProxyChat;
 			sourceTree = "<group>";
 		};
-		C87BB7441BC927210034AB58 /* ProxyChatTests */ = {
+		EABF4D0A1CEE24E3009A8F1E /* ProxyChatTests */ = {
 			isa = PBXGroup;
 			children = (
-				C87BB7451BC927210034AB58 /* ProxyChatTests.swift */,
-				C87BB7471BC927210034AB58 /* Info.plist */,
+				EABF4D0B1CEE24E3009A8F1E /* ProxyChatTests.swift */,
+				EABF4D0D1CEE24E3009A8F1E /* Info.plist */,
 			);
 			path = ProxyChatTests;
 			sourceTree = "<group>";
 		};
-		C87BB74F1BC927210034AB58 /* ProxyChatUITests */ = {
+		EABF4D151CEE24E3009A8F1E /* ProxyChatUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C87BB7501BC927210034AB58 /* ProxyChatUITests.swift */,
-				C87BB7521BC927210034AB58 /* Info.plist */,
+				EABF4D161CEE24E3009A8F1E /* ProxyChatUITests.swift */,
+				EABF4D181CEE24E3009A8F1E /* Info.plist */,
 			);
 			path = ProxyChatUITests;
 			sourceTree = "<group>";
@@ -147,13 +168,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C87BB72C1BC927210034AB58 /* ProxyChat */ = {
+		EABF4CF21CEE24E3009A8F1E /* ProxyChat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C87BB7551BC927210034AB58 /* Build configuration list for PBXNativeTarget "ProxyChat" */;
+			buildConfigurationList = EABF4D1B1CEE24E3009A8F1E /* Build configuration list for PBXNativeTarget "ProxyChat" */;
 			buildPhases = (
-				C87BB7291BC927210034AB58 /* Sources */,
-				C87BB72A1BC927210034AB58 /* Frameworks */,
-				C87BB72B1BC927210034AB58 /* Resources */,
+				D61B2AD08B7F6A6CA1402129 /* 📦 Check Pods Manifest.lock */,
+				EABF4CEF1CEE24E3009A8F1E /* Sources */,
+				EABF4CF01CEE24E3009A8F1E /* Frameworks */,
+				EABF4CF11CEE24E3009A8F1E /* Resources */,
+				814C395564833132E0012DCA /* 📦 Embed Pods Frameworks */,
+				BBC18605CE25C3CED4008B85 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,69 +185,74 @@
 			);
 			name = ProxyChat;
 			productName = ProxyChat;
-			productReference = C87BB72D1BC927210034AB58 /* ProxyChat.app */;
+			productReference = EABF4CF31CEE24E3009A8F1E /* ProxyChat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C87BB7401BC927210034AB58 /* ProxyChatTests */ = {
+		EABF4D061CEE24E3009A8F1E /* ProxyChatTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C87BB7581BC927210034AB58 /* Build configuration list for PBXNativeTarget "ProxyChatTests" */;
+			buildConfigurationList = EABF4D1E1CEE24E3009A8F1E /* Build configuration list for PBXNativeTarget "ProxyChatTests" */;
 			buildPhases = (
-				C87BB73D1BC927210034AB58 /* Sources */,
-				C87BB73E1BC927210034AB58 /* Frameworks */,
-				C87BB73F1BC927210034AB58 /* Resources */,
+				BA90B6473FA41A7413488042 /* 📦 Check Pods Manifest.lock */,
+				EABF4D031CEE24E3009A8F1E /* Sources */,
+				EABF4D041CEE24E3009A8F1E /* Frameworks */,
+				EABF4D051CEE24E3009A8F1E /* Resources */,
+				EAF34833FE43147B1C4B7102 /* 📦 Embed Pods Frameworks */,
+				0FBDC6649A8C4FC39866D493 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C87BB7431BC927210034AB58 /* PBXTargetDependency */,
+				EABF4D091CEE24E3009A8F1E /* PBXTargetDependency */,
 			);
 			name = ProxyChatTests;
 			productName = ProxyChatTests;
-			productReference = C87BB7411BC927210034AB58 /* ProxyChatTests.xctest */;
+			productReference = EABF4D071CEE24E3009A8F1E /* ProxyChatTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C87BB74B1BC927210034AB58 /* ProxyChatUITests */ = {
+		EABF4D111CEE24E3009A8F1E /* ProxyChatUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C87BB75B1BC927210034AB58 /* Build configuration list for PBXNativeTarget "ProxyChatUITests" */;
+			buildConfigurationList = EABF4D211CEE24E3009A8F1E /* Build configuration list for PBXNativeTarget "ProxyChatUITests" */;
 			buildPhases = (
-				C87BB7481BC927210034AB58 /* Sources */,
-				C87BB7491BC927210034AB58 /* Frameworks */,
-				C87BB74A1BC927210034AB58 /* Resources */,
+				E578D456DB0FB6762C07090A /* 📦 Check Pods Manifest.lock */,
+				EABF4D0E1CEE24E3009A8F1E /* Sources */,
+				EABF4D0F1CEE24E3009A8F1E /* Frameworks */,
+				EABF4D101CEE24E3009A8F1E /* Resources */,
+				A1F9C9768E2F275162361841 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C87BB74E1BC927210034AB58 /* PBXTargetDependency */,
+				EABF4D141CEE24E3009A8F1E /* PBXTargetDependency */,
 			);
 			name = ProxyChatUITests;
 			productName = ProxyChatUITests;
-			productReference = C87BB74C1BC927210034AB58 /* ProxyChatUITests.xctest */;
+			productReference = EABF4D121CEE24E3009A8F1E /* ProxyChatUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C87BB7251BC927210034AB58 /* Project object */ = {
+		EABF4CEB1CEE24E3009A8F1E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = "Wilson Ding";
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kevin Nguyen";
 				TargetAttributes = {
-					C87BB72C1BC927210034AB58 = {
-						CreatedOnToolsVersion = 7.0.1;
-						DevelopmentTeam = YYZ92V6LND;
+					EABF4CF21CEE24E3009A8F1E = {
+						CreatedOnToolsVersion = 7.3.1;
 					};
-					C87BB7401BC927210034AB58 = {
-						CreatedOnToolsVersion = 7.0.1;
-						TestTargetID = C87BB72C1BC927210034AB58;
+					EABF4D061CEE24E3009A8F1E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EABF4CF21CEE24E3009A8F1E;
 					};
-					C87BB74B1BC927210034AB58 = {
-						CreatedOnToolsVersion = 7.0.1;
-						TestTargetID = C87BB72C1BC927210034AB58;
+					EABF4D111CEE24E3009A8F1E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EABF4CF21CEE24E3009A8F1E;
 					};
 				};
 			};
-			buildConfigurationList = C87BB7281BC927210034AB58 /* Build configuration list for PBXProject "ProxyChat" */;
+			buildConfigurationList = EABF4CEE1CEE24E3009A8F1E /* Build configuration list for PBXProject "ProxyChat" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -231,37 +260,37 @@
 				en,
 				Base,
 			);
-			mainGroup = C87BB7241BC927210034AB58;
-			productRefGroup = C87BB72E1BC927210034AB58 /* Products */;
+			mainGroup = EABF4CEA1CEE24E3009A8F1E;
+			productRefGroup = EABF4CF41CEE24E3009A8F1E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C87BB72C1BC927210034AB58 /* ProxyChat */,
-				C87BB7401BC927210034AB58 /* ProxyChatTests */,
-				C87BB74B1BC927210034AB58 /* ProxyChatUITests */,
+				EABF4CF21CEE24E3009A8F1E /* ProxyChat */,
+				EABF4D061CEE24E3009A8F1E /* ProxyChatTests */,
+				EABF4D111CEE24E3009A8F1E /* ProxyChatUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C87BB72B1BC927210034AB58 /* Resources */ = {
+		EABF4CF11CEE24E3009A8F1E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C87BB73B1BC927210034AB58 /* LaunchScreen.storyboard in Resources */,
-				C87BB7381BC927210034AB58 /* Assets.xcassets in Resources */,
-				C87BB7361BC927210034AB58 /* Main.storyboard in Resources */,
+				EABF4D011CEE24E3009A8F1E /* LaunchScreen.storyboard in Resources */,
+				EABF4CFE1CEE24E3009A8F1E /* Assets.xcassets in Resources */,
+				EABF4CFC1CEE24E3009A8F1E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C87BB73F1BC927210034AB58 /* Resources */ = {
+		EABF4D051CEE24E3009A8F1E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C87BB74A1BC927210034AB58 /* Resources */ = {
+		EABF4D101CEE24E3009A8F1E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -270,65 +299,183 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FBDC6649A8C4FC39866D493 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProxyChatTests/Pods-ProxyChatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		814C395564833132E0012DCA /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProxyChat/Pods-ProxyChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1F9C9768E2F275162361841 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProxyChatUITests/Pods-ProxyChatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA90B6473FA41A7413488042 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BBC18605CE25C3CED4008B85 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProxyChat/Pods-ProxyChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D61B2AD08B7F6A6CA1402129 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E578D456DB0FB6762C07090A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EAF34833FE43147B1C4B7102 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProxyChatTests/Pods-ProxyChatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		C87BB7291BC927210034AB58 /* Sources */ = {
+		EABF4CEF1CEE24E3009A8F1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C87BB7311BC927210034AB58 /* AppDelegate.swift in Sources */,
-				C87BB7711BC943EB0034AB58 /* ALTextInputBarDelegate.swift in Sources */,
-				C87BB7651BC9299F0034AB58 /* MainMessageViewController.swift in Sources */,
-				C87BB7701BC943EB0034AB58 /* ALTextInputBar.swift in Sources */,
-				C87BB76F1BC943EB0034AB58 /* ALKeyboardObservingView.swift in Sources */,
-				C87BB7721BC943EB0034AB58 /* ALTextInputUtilities.swift in Sources */,
-				C87BB7731BC943EB0034AB58 /* ALTextView.swift in Sources */,
+				EABF4CF91CEE24E3009A8F1E /* ViewController.swift in Sources */,
+				EABF4CF71CEE24E3009A8F1E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C87BB73D1BC927210034AB58 /* Sources */ = {
+		EABF4D031CEE24E3009A8F1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C87BB7461BC927210034AB58 /* ProxyChatTests.swift in Sources */,
+				EABF4D0C1CEE24E3009A8F1E /* ProxyChatTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C87BB7481BC927210034AB58 /* Sources */ = {
+		EABF4D0E1CEE24E3009A8F1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C87BB7511BC927210034AB58 /* ProxyChatUITests.swift in Sources */,
+				EABF4D171CEE24E3009A8F1E /* ProxyChatUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C87BB7431BC927210034AB58 /* PBXTargetDependency */ = {
+		EABF4D091CEE24E3009A8F1E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C87BB72C1BC927210034AB58 /* ProxyChat */;
-			targetProxy = C87BB7421BC927210034AB58 /* PBXContainerItemProxy */;
+			target = EABF4CF21CEE24E3009A8F1E /* ProxyChat */;
+			targetProxy = EABF4D081CEE24E3009A8F1E /* PBXContainerItemProxy */;
 		};
-		C87BB74E1BC927210034AB58 /* PBXTargetDependency */ = {
+		EABF4D141CEE24E3009A8F1E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C87BB72C1BC927210034AB58 /* ProxyChat */;
-			targetProxy = C87BB74D1BC927210034AB58 /* PBXContainerItemProxy */;
+			target = EABF4CF21CEE24E3009A8F1E /* ProxyChat */;
+			targetProxy = EABF4D131CEE24E3009A8F1E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C87BB7341BC927210034AB58 /* Main.storyboard */ = {
+		EABF4CFA1CEE24E3009A8F1E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C87BB7351BC927210034AB58 /* Base */,
+				EABF4CFB1CEE24E3009A8F1E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C87BB7391BC927210034AB58 /* LaunchScreen.storyboard */ = {
+		EABF4CFF1CEE24E3009A8F1E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C87BB73A1BC927210034AB58 /* Base */,
+				EABF4D001CEE24E3009A8F1E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -336,10 +483,11 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C87BB7531BC927210034AB58 /* Debug */ = {
+		EABF4D191CEE24E3009A8F1E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -372,7 +520,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -380,10 +528,11 @@
 			};
 			name = Debug;
 		};
-		C87BB7541BC927210034AB58 /* Release */ = {
+		EABF4D1A1CEE24E3009A8F1E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -410,129 +559,127 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		C87BB7561BC927210034AB58 /* Debug */ = {
+		EABF4D1C1CEE24E3009A8F1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F41FCD78CE77E82FACD47BC0 /* Pods-ProxyChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ProxyChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.wilsonding.ProxyChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinjnguyen.ProxyChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
-		C87BB7571BC927210034AB58 /* Release */ = {
+		EABF4D1D1CEE24E3009A8F1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C91757A9653545D4AD80CA /* Pods-ProxyChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ProxyChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.wilsonding.ProxyChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinjnguyen.ProxyChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
-		C87BB7591BC927210034AB58 /* Debug */ = {
+		EABF4D1F1CEE24E3009A8F1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B157FE6F917ADF049EACFB /* Pods-ProxyChatTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ProxyChatTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.wilsonding.ProxyChatTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinjnguyen.ProxyChatTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProxyChat.app/ProxyChat";
 			};
 			name = Debug;
 		};
-		C87BB75A1BC927210034AB58 /* Release */ = {
+		EABF4D201CEE24E3009A8F1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07955DB8B463B62667618161 /* Pods-ProxyChatTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ProxyChatTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.wilsonding.ProxyChatTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinjnguyen.ProxyChatTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProxyChat.app/ProxyChat";
 			};
 			name = Release;
 		};
-		C87BB75C1BC927210034AB58 /* Debug */ = {
+		EABF4D221CEE24E3009A8F1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F57D11C1F5206EE1980AB9 /* Pods-ProxyChatUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ProxyChatUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.wilsonding.ProxyChatUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinjnguyen.ProxyChatUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = ProxyChat;
-				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
 		};
-		C87BB75D1BC927210034AB58 /* Release */ = {
+		EABF4D231CEE24E3009A8F1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B1EF859878451D9DC16D6ED /* Pods-ProxyChatUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ProxyChatUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.wilsonding.ProxyChatUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinjnguyen.ProxyChatUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = ProxyChat;
-				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C87BB7281BC927210034AB58 /* Build configuration list for PBXProject "ProxyChat" */ = {
+		EABF4CEE1CEE24E3009A8F1E /* Build configuration list for PBXProject "ProxyChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C87BB7531BC927210034AB58 /* Debug */,
-				C87BB7541BC927210034AB58 /* Release */,
+				EABF4D191CEE24E3009A8F1E /* Debug */,
+				EABF4D1A1CEE24E3009A8F1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C87BB7551BC927210034AB58 /* Build configuration list for PBXNativeTarget "ProxyChat" */ = {
+		EABF4D1B1CEE24E3009A8F1E /* Build configuration list for PBXNativeTarget "ProxyChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C87BB7561BC927210034AB58 /* Debug */,
-				C87BB7571BC927210034AB58 /* Release */,
+				EABF4D1C1CEE24E3009A8F1E /* Debug */,
+				EABF4D1D1CEE24E3009A8F1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C87BB7581BC927210034AB58 /* Build configuration list for PBXNativeTarget "ProxyChatTests" */ = {
+		EABF4D1E1CEE24E3009A8F1E /* Build configuration list for PBXNativeTarget "ProxyChatTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C87BB7591BC927210034AB58 /* Debug */,
-				C87BB75A1BC927210034AB58 /* Release */,
+				EABF4D1F1CEE24E3009A8F1E /* Debug */,
+				EABF4D201CEE24E3009A8F1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C87BB75B1BC927210034AB58 /* Build configuration list for PBXNativeTarget "ProxyChatUITests" */ = {
+		EABF4D211CEE24E3009A8F1E /* Build configuration list for PBXNativeTarget "ProxyChatUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C87BB75C1BC927210034AB58 /* Debug */,
-				C87BB75D1BC927210034AB58 /* Release */,
+				EABF4D221CEE24E3009A8F1E /* Debug */,
+				EABF4D231CEE24E3009A8F1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C87BB7251BC927210034AB58 /* Project object */;
+	rootObject = EABF4CEB1CEE24E3009A8F1E /* Project object */;
 }
