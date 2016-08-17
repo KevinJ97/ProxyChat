@@ -21,7 +21,7 @@ ProxyChat was originally created by Wilson Ding, Kevin J Nguyen, Muin Momin, and
 
 ## License
 
-`ProxyChat` is released under an [MIT License][mitLink]. See `LICENSE` for details.
+`ProxyChat` is released under an [MIT License][mitLink].
 
 **Copyright &copy; 2015-present Wilson Ding.**
 
